@@ -7,7 +7,7 @@ public class TestTime
 	static void Main()
 	{
 		Console.WriteLine("Enter time in format hh:mm");
-		Console.WriteLine("Press carriage return to quit");
+		Console.WriteLine("Press 'Enter' to quit");
 		InputWrapper iw = new InputWrapper();
 		string str = iw.getString("time: ");
 		while (str != "")
